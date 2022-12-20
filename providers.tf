@@ -7,14 +7,15 @@ terraform {
       version = "=3.35.0"
     }
   }
-}
 
-backend "remote" {
-  organization = "emine"
+  backend "remote" {
+    organization = "emine"
 
-  workspaces {
-    name = "dec19_terraform_test"
+    workspaces {
+      name = "dec19_terraform_test"
+    }
   }
+
 }
 
 # Configure the Microsoft Azure Provider
