@@ -1,10 +1,10 @@
-# This repository was used to practice Terraform cloud.
+# This repository was used to practice Terraform cloud
 
 Login to [Terraform Cloud](https://app.terraform.io/session)
 
 Github repository can be used directly in the Terraform Cloud to deploy the resources.
 
-Three variables are needed to run the terraform module on terraform cloud.
+Four variables are needed to run the terraform module on terraform cloud.
 
 - ARM_SUBSCRIPTION_ID
 - ARM_TENANT_ID
